@@ -20,7 +20,8 @@ git checkout branchname<br/>
 
 git merge branchname(branch to be merged)<br/>
 
-git remote git remote add origin  [https://github.com/ajaykumareddy/projects.git](https://github.com/ajaykumareddy/projects.git)  <br/>
+git remote <br/>
+git remote add origin  [https://github.com/ajaykumareddy/projects.git](https://github.com/ajaykumareddy/projects.git)  <br/>
 git branch --set-upstream-to origin/<remote-branch> (or) git branch --set-upstream-to master origin/master<br/>
 git push -u origin master (or) git push --set-upstream origin master<br/>
 git pull<br/>
