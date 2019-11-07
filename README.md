@@ -14,17 +14,19 @@ git commit->then press i for Insert Mode,type your message,press Esc to exit ins
 git commit -m "commit message comes here" <br/>
 git reset --hard HEAD~1 (Note: All the changes of last commit gets removed.)<br/>
 
+git branch (or) git branch -a (or) git branch -r<br/>
 git branch branchname <br/>
 git checkout branchname<br/>
 
 git merge branchname(branch to be merged)<br/>
 
 git remote git remote add origin  [https://github.com/ajaykumareddy/projects.git](https://github.com/ajaykumareddy/projects.git)  <br/>
+git branch --set-upstream-to origin/<remote-branch> (or) git branch --set-upstream-to master origin/master<br/>
 git push -u origin master (or) git push --set-upstream origin master<br/>
 git pull<br/>
 
-git branch -d master -> delete branch locally
-git branch -d -r origin/master -> delete branch remote
+git branch -d master -> delete branch locally<br/>
+git branch -d -r origin/master -> delete branch remote<br/>
 
 git clone clone/to/path foldername(if particular folder required)<br/>
 
