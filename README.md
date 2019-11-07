@@ -26,7 +26,7 @@ git push -u origin master (or) git push --set-upstream origin master<br/>
 git pull<br/>
 
 git branch -d master -> delete branch locally<br/>
-git branch -d -r origin/master -> delete branch remote<br/>
+git push origin --delete master -> delete branch remote<br/>
 
 git clone clone/to/path foldername(if particular folder required)<br/>
 
