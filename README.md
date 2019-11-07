@@ -20,7 +20,11 @@ git checkout branchname<br/>
 git merge branchname(branch to be merged)<br/>
 
 git remote git remote add origin  [https://github.com/ajaykumareddy/projects.git](https://github.com/ajaykumareddy/projects.git)  <br/>
-git push -u origin master git pull<br/>
+git push -u origin master (or) git push --set-upstream origin master<br/>
+git pull<br/>
+
+git branch -d master -> delete branch locally
+git branch -d -r origin/master -> delete branch remote
 
 git clone clone/to/path foldername(if particular folder required)<br/>
 
